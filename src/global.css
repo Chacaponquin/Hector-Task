@@ -17,6 +17,9 @@
 }
 
 .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     background-image: url("./assets/images/bg-Img.png");
     background-repeat: no-repeat;
@@ -66,7 +69,7 @@ nav {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     object-position: top;
 }
@@ -100,7 +103,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
     height: 100vh;
     width: 10%;
     top: 0;
@@ -218,4 +221,34 @@ nav {
     width: 50px;
     height: 50px;
     margin: 1rem 0;
+}
+
+.partner-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 8rem;
+    border-radius: 15px;
+    align-items: center;
+    background: linear-gradient( 90deg, #091e3a 1.44%, #2f80ed 50.72%, #000b48 100%);
+    padding: 2rem 9rem 1rem 9rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 3% 100%);
+    border: 3px solid white;
+}
+
+.partner-container>h1 {
+    font-size: 1.6rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.logo-container>img {
+    width: 150px;
+    height: 40px;
+    object-fit: contain;
+    margin: 0 2rem;
 }

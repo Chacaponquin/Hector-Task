@@ -3,6 +3,7 @@ import SocialMedia from "./Components/SocialMedia";
 import LeftSide from "./Components/LeftSide";
 import ContentPrincipal from "./Components/ContentPrincipal";
 import Footer from "./Components/Footer";
+import Partner from "./Components/Partner";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       </section>
 
       <Footer />
+
+      <Partner />
     </div>
   );
 }
