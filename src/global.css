@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Moserrat Extrabold";
+    src: url("./assets/Font/static/Montserrat-ExtraBold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.hero-content {
+    width: 100%;
+    background-image: url("./assets/images/bg-Img.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    z-index: -2;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+    z-index: 99;
+    width: 100%;
+    background-image: url(./assets/images/Header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-options {
+    display: flex;
+    align-items: center;
+}
+
+.nav-options>h1 {
+    position: absolute;
+    left: 100px;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.nav-options>p {
+    margin: 0 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.header-bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.footer-waves {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.hero-content>section {
+    display: flex;
+    width: 100%;
+}
+
+.content-first,
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+}
+
+.content-principal {
+    width: 80%;
+}
+
+.content-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.navigation-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100vh;
+    width: 10%;
+    top: 0;
+    left: 0;
+}
+
+.navigation-circle {
+    width: 7px;
+    border-radius: 50%;
+    height: 7px;
+    margin: 0.5rem 0;
+    background-color: pink;
+}
+
+.active-circle {
+    height: 30px;
+    border-radius: 10px;
+}
+
+.content-first>section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-first>section>p {
+    font-size: 0.6rem;
+}
+
+.content-first>section>img {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    margin: 0.5rem 0;
+}
+
+.content-principal {
+    display: flex;
+    height: max-content;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.content-principal>div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 750px;
+}
+
+.content-principal>div:first-child>h1 {
+    font-size: 3.5rem;
+    font-family: Montserrat ExtraBold;
+}
+
+.content-principal>div:first-child>p {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem 0 2rem 0;
+}
+
+.content-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    cursor: pointer;
+}
+
+.content-button>p {
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    pointer-events: none;
+}
+
+.content-principal>div:last-child {
+    height: 100%;
+    padding-left: 4rem;
+}
+
+.bitcoin-bg {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.bitcoin-bg>img {
+    object-fit: cover;
+    width: 600px;
+    height: 650px;
+    transform: translateX(-10rem);
+}
+
+.content-principal>div:last-child>img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.social-media {
+    height: 442px;
+    justify-content: center;
+}
+
+.social-media svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #fff;
+    width: 50px;
+    height: 50px;
+    margin: 1rem 0;
+}
